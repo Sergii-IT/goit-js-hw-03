@@ -1,10 +1,11 @@
 function filterArray(numbers, value) {
     const bigNumArrey = [];
    
-    for(const item of numbers) 
+    for(const item of numbers) {
         if (item > value) {
             bigNumArrey.push(item);
         }
+    }
         return bigNumArrey;
 }
 
